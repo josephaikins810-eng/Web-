@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Online | SRC Sports Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">SRC Sports Academy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="new-activities.html">New Activities</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="book-online.html" class="active">Book Now</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/background-video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <div class="hero-content">
+            <h1>Book Your Session</h1>
+            <p>Reserve a training slot, class, or private lesson quickly and securely.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="section-title">
+            <h2>Book a Training Session</h2>
+            <p>Choose your activity, date, and preferred time to confirm your booking.</p>
+        </section>
+
+        <div class="form-card">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Jane Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="activity">Select Activity</label>
+                    <select id="activity" name="activity" required>
+                        <option value="">Choose an activity</option>
+                        <option>Wrestling Training</option>
+                        <option>Taekwondo Class</option>
+                        <option>Judo Workshop</option>
+                        <option>Volleyball Practice</option>
+                        <option>Recovery Session</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Tell us what you want to focus on..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-secondary">Send Booking Request</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h4>About SRC</h4>
+                <p>Book your preferred session now and get ready to train with experienced coaches in a safe environment.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Email: info@srcsportsacademy.edu</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2026 SRC Sports Academy. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

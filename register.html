@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | SRC Sports Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">SRC Sports Academy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="new-activities.html">New Activities</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="book-online.html">Book Now</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/background-video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <div class="hero-content">
+            <h1>Register for Training</h1>
+            <p>Sign up to become a member and access SRC coaching, classes, and facilities.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="section-title">
+            <h2>Join SRC Today</h2>
+            <p>Complete the registration form to get official access to our training programs and academy events.</p>
+        </section>
+
+        <div class="form-card">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="reg-name">Full Name</label>
+                    <input type="text" id="reg-name" name="reg-name" placeholder="John Smith" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email Address</label>
+                    <input type="email" id="reg-email" name="reg-email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-phone">Phone Number</label>
+                    <input type="tel" id="reg-phone" name="reg-phone" placeholder="(555) 123-4567" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-sport">Interested Sport</label>
+                    <select id="reg-sport" name="reg-sport" required>
+                        <option value="">Choose a sport</option>
+                        <option>Wrestling</option>
+                        <option>Taekwondo</option>
+                        <option>Judo</option>
+                        <option>Volleyball</option>
+                        <option>Conditioning</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="reg-goal">Training Goal</label>
+                    <textarea id="reg-goal" name="reg-goal" rows="4" placeholder="Tell us what you want to achieve..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-secondary">Submit Registration</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h4>About SRC</h4>
+                <p>Register now to secure your spot in classes, clinics, and training sessions offered throughout the year.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="book-online.html">Book Now</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Email: info@srcsportsacademy.edu</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2026 SRC Sports Academy. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
